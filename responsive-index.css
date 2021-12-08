@@ -47,7 +47,7 @@
     .user-inner-para{
         font-size: 20px;
         width: 90%;
-
+        margin: 0 auto;
     }
     .large-button{
         width: 40%;
@@ -96,7 +96,7 @@
         width: 90%;
     }
     .large-button{
-        width: 25%;
+        width: 45%;
         font-size: 20px;
     }
     #pbars{
@@ -130,6 +130,9 @@
         margin-left: 12px;
         margin-right: 12px;
     }
+    .large-button{
+        font-size: 16px;
+    }
     .user-stars>i{
         margin-left: 0px;
     }
@@ -154,6 +157,9 @@
     }
     .user-stars>i{
         margin-left: 0px;
+    }
+    .large-button{
+        font-size: 16px;
     }
   }
   @media only screen and (max-width: 350px) {

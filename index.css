@@ -250,6 +250,9 @@
     color:#7F11F6;
     font-size: 28px;
 }
+.user-para{
+    margin: 0 auto;
+}
 .user-para>p{
     font-size: 20px;
     text-align: justify;
@@ -263,6 +266,7 @@
 }
 .user-head{
     margin: 10px;
+    margin-left: 20px;
 }
 .user-inner-para{
     margin: 10px;
@@ -272,6 +276,8 @@
 }
 .com-user{
     margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 .large-button{
     width: 40%;
@@ -284,6 +290,7 @@
     color: black;
     background-color: transparent;
     border-radius: 10px;
+    margin-top: 20px;
 }
 /* queries */
 #queries{
