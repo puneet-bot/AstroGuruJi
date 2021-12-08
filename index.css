@@ -12,6 +12,10 @@
 .profile{
     margin: 10px;
 }
+.my-lang{
+    display: none;
+    width: 20%;
+}
 .my-btn{
     background-color: white;
      border: 1px solid #ced4da;
@@ -167,6 +171,10 @@
     padding: 5px;
     font-size: 20px;
 }
+#last-div-tag>i,
+.unique-star{
+    margin-right: 2px !important;
+}
 #last-div-header>h2{
     display:inline-block ;
 }
@@ -198,7 +206,7 @@
 }
 #local-tag{
     color: #7F11F6;
-
+    font-size: 14px;
 }
 
 /* Ratings section */

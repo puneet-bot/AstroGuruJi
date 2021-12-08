@@ -61,6 +61,14 @@
         width: 40% !important;
     }
   }
+  @media only screen and (max-width: 990px) {
+      .my-lang{
+          display: inline-block;
+      }
+      .lang{
+          display: none;
+      }
+  }
 
  
 
@@ -80,6 +88,9 @@
     }
     .three,.zero{
         font-size: 26px;
+    }
+    #acc-head-my{
+        font-size: 20px !important;
     }
   }
 
@@ -194,5 +205,6 @@
 .user-stars>i{
     margin: 0;
 }
+
 
   }
