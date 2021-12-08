@@ -1,0 +1,192 @@
+@media only screen and (min-width: 1024px) {
+    #pbars{
+        width: 45% !important;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #first-section,
+    #main-section,
+    #last-section,
+    #pro-name{
+        width: 100% !important;
+        display: block;
+        margin: 0 auto;
+    }
+    #ratings,
+    #comments,
+    #queries,
+    #my-last-section{
+        width: 98% !important;
+        display: block;
+        border:none;
+        margin: 0 auto;
+    }
+    #first-section,#first-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #review-profile,
+    #pro-name,
+    #first-row>div{
+        text-align: center !important;
+        display: block;
+    }
+    #second-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+    #last-section{
+        display: none;
+    }
+    #my-last-section{
+        display :block;
+    }
+    .user-para>p,
+    .user-inner-para{
+        font-size: 20px;
+        width: 90%;
+
+    }
+    .large-button{
+        width: 40%;
+        font-size: 24px;
+    }
+    #last-div{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #pbars{
+        width: 40% !important;
+    }
+  }
+
+ 
+
+  @media only screen and (max-width: 800px) {
+     
+    .user-para>p,
+    .user-inner-para{
+        font-size: 18px;
+        width: 90%;
+    }
+    .large-button{
+        width: 40%;
+        font-size: 21px;
+    }
+    #pbars{
+        width: 40% !important;
+    }
+    .three,.zero{
+        font-size: 26px;
+    }
+  }
+
+
+  
+  @media only screen and (max-width: 600px) {
+    .stars-rat> .fa-star{
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .user-para>p,
+    .user-inner-para{
+        font-size: 16px;
+        width: 90%;
+    }
+    .large-button{
+        width: 25%;
+        font-size: 20px;
+    }
+    #pbars{
+        width: 35% !important;
+    }
+    #rat-head ,
+    #rat-head +span{
+        font-size: 18px;
+    }
+    #ratings{
+        margin:0;
+    }
+    .three,.zero{
+        font-size: 22px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    #pbars{
+        width: 23% !important;
+    }
+    #rat-head ,
+    #rat-head +span{
+        font-size: 16px;
+    }
+    .three,.zero{
+        font-size: 18px;
+    }
+    .user-name,#comment-date{
+        font-size: 18px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .user-stars>i{
+        margin-left: 0px;
+    }
+  }
+    
+  
+  @media only screen and (max-width: 400px) {
+    #pbars{
+        width: 18% !important;
+    }
+    #rat-head ,
+    #rat-head +span{
+        font-size: 14px;
+    }
+    .three,.zero{
+        font-size: 16px;
+    }
+    .user-name,#comment-date{
+        font-size: 18px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .user-stars>i{
+        margin-left: 0px;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    #pbars{
+        width: 10% !important;
+    }
+    #rat-head ,
+    #rat-head +span{
+        font-size: 12px;
+    }
+    .three,.zero{
+        font-size: 14px;
+    }
+    .user-name,#comment-date{
+        font-size: 13px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .user-stars>i{
+        margin-left: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .three,.zero{
+        font-size: 12px;
+    }
+  .user-name,#comment-date{
+    font-size: 12px;
+    margin: 0;
+}
+.user-stars>i{
+    margin: 0;
+}
+
+  }
