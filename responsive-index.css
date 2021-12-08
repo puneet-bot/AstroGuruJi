@@ -123,6 +123,12 @@
     .three,.zero{
         font-size: 22px;
     }
+    #second-row>div{
+        margin: 0px;
+        
+        margin-bottom: 30px;
+    }
+    
   }
 
   @media only screen and (max-width: 500px) {
@@ -147,6 +153,14 @@
     .user-stars>i{
         margin-left: 0px;
     }
+    .review-main-span-stats{
+        font-size: 14px;
+    }
+    .review-main-stats{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
   }
     
   
@@ -172,6 +186,13 @@
     .large-button{
         font-size: 16px;
     }
+    .review-main-span-stats{
+        font-size: 12px;
+    }
+    .review-main-stats{
+        font-size: 14px;
+        margin-left: 2px;
+    }
   }
   @media only screen and (max-width: 350px) {
     #pbars{
@@ -192,6 +213,13 @@
     .user-stars>i{
         margin-left: 0px;
     }
+    .review-main-span-stats{
+        font-size: 12px;
+    }
+    .review-main-stats{
+        font-size: 14px;
+        margin-left: 2px;
+    }
   }
 
   @media only screen and (max-width: 300px) {
@@ -205,6 +233,12 @@
 .user-stars>i{
     margin: 0;
 }
-
+.review-main-span-stats{
+    font-size: 12px;
+}
+.review-main-stats{
+    font-size: 14px;
+    margin-left: 2px;
+}
 
   }
